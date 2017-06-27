@@ -1,0 +1,15 @@
+{
+    "name": "qitianpeng/do-the-math",
+    "description": "中缀表达式解析器",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "RollingBack",
+            "email": "lackgod@hotmail.com"
+        }
+    ],
+    "require": {
+        "monolog/monolog": "^1.23"
+    }
+}
