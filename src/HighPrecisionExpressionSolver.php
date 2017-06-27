@@ -1,5 +1,7 @@
 <?php
 namespace DoTheMath;
+use \SplStack;
+use \Exception;
 /**
  * Created by PhpStorm.
  * User: qitianpeng

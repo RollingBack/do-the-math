@@ -14,27 +14,22 @@ class Singleton
     protected static $instance = null;
 
     /**
-     * Singleton constructor.
+     * CalEngine constructor.
      */
-    private function __construct()
-    {
-    }
+    private final function __construct() { }
 
     /**
      *
      */
-    private function __clone()
-    {
-    }
+    protected final function __clone() { }
 
     /**
-     * @return null|static
+     * @return null
      */
-    public static function getInstance()
-    {
-        if(self::$instance === null){
-            self::$instance = new static();
+    public static function getInstance() {
+        if(static::$instance === null){
+            static::$instance = new static();
         }
-        return self::$instance;
+        return static::$instance;
     }
 }

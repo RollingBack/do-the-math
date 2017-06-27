@@ -6,7 +6,7 @@ namespace DoTheMath;
  * Date: 2017/6/27
  * Time: 下午1:39
  */
-class BCCompiler
+class BCCompiler extends CalEngine
 {
     /**
      * @var null
